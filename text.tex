@@ -1,6 +1,9 @@
 \documentclass{article}
 % Packages
 \usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+
+\graphicspath{{./images/}}
 % Title
 \title{Inner Demons\\Game Design}
 \author{Josef Větrovský}
@@ -86,18 +89,60 @@ music. Just listen to it...
 \section{Game Design}
     % Script
 \subsection{Script}
+An unnamed man kills his family in a fit of rage. After realizing, what he's done, he hangs himself. For his sins, he is condemned to wander his own rotten mind for the rest of eternity.
+
+After a long time of confused wailing, unable to do anything, just lying in a small old hut, he decides to take action and cleanse his own mind. He wanders into the darkness, stopping only to write letters, just to keep himself sane, knowing that no one will ever read them. Along the way he finds a gun and uses it to fight off the demons in his mind. The environment gets darker and more wicked as he progresses and his sanity diminishes more and more, which can be seen in his letters.
+
+In the end, the puts up a fight with the devil within him. After defeating him, he faints, only to find himself back at the beginning, with his memory wiped, going on the same journey, he just completed, because even if he wanted to, he cannot change his fate. He will stay trapped in his wicked mind forever.
     % Locations
 \subsection{Locations}
+The whole map is just one location. It changes vibe as you progress through the game.
+
+You start in an overwrown grain fields with a small hut a an old tree nearby. The places will
+look similar for some time. After a while it gets darker and you go deeper through mines.
+
+The whole western themed environment is sad, overgrown and dark.
+
+On strategic point in the game, letters are placed.
     % Level Design
 \subsection{Level Design}
+\includegraphics{level_design.png}\\
+Note that this is just an outline of the real map.\\
+\\
+One pixel wide - red - above ground - flying demons\\
+Two pixels wide - red - on the ground - normal demons\\
+One pixel wide - dark brown - on the ground - letters\\
+Two pixels wide - yellow - on the ground - gun\\
+Big red thing at the end - the devil within
     % Dialogs
 \subsection{Dialogs}
+There are no dialogs in this game. You are completely alone.
     % Technical Design
 \subsection{Technical Design}
+\textbf{Health:}\\
+Player health - 3 HP\\
+Normal demon - 3 HP\\
+Flying demon - 1 HP\\
+The devil within - 20 HP\\
+\\
+\textbf{Damage:}\\
+Gun damage - 1 HP\\
+\\
+\textbf{Number of letters:} 8
+
     % User Interface
 \subsection{User Interface}
+\includegraphics{HUD}\\
+HP bar is present at all times.\\
+When letters are opened, they can be viewed at the center of the screen as shown in the picture.
     % Controls Design
 \subsection{Controls Design}
+Movement - A and D keys\\
+Jump - SPACE\\
+Shoot - LEFT CLICK where you want to shoot\\
+Interact - E key
     % Sound
 \subsection{Sound}
+Few songs from various interprets. Slow and atmospheric\\
+Ambient sounds
 \end{document}
